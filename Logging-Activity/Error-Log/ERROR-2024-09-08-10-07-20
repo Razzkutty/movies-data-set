@@ -1,0 +1,11 @@
+{
+    "status_code": 500,
+    "error": "Traceback (most recent call last):\n  File \"<command-3418843382746101>\", line 11, in make_request\n    raise ValueError(\"Invalid URL or URL is missing\")\nValueError: Invalid URL or URL is missing\n",
+    "log_type": "error",
+    "Function Details": {
+        "function_name": "write_log",
+        "positional_args": "('Logging-Activity/Error-Log',)",
+        "kwargs": "{'status_code': 500, 'error': 'Traceback (most recent call last):\\n  File \"<command-3418843382746101>\", line 11, in make_request\\n    raise ValueError(\"Invalid URL or URL is missing\")\\nValueError: Invalid URL or URL is missing\\n', 'log_type': 'error'}"
+    },
+    "last_log_time": "2024-09-08 10:07:20"
+}
