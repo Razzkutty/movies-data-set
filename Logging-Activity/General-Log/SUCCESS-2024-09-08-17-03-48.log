@@ -1,0 +1,14 @@
+{
+    "Function Activity Details": {
+        "function_name": "add_genre_columns",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "Add genre indicator columns",
+        "kwargs": {
+            "status_code": "N/A",
+            "message": "All genre columns added successfully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-08 17:03:48-371950"
+}
