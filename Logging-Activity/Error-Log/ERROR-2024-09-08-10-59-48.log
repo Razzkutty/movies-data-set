@@ -1,0 +1,13 @@
+{
+    "Function Activity Details": {
+        "function_name": "Unknown",
+        "github_repo_folder_dir": "Logging-Activity/Error-Log",
+        "kwargs": {
+            "status_code": 500,
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"<command-3418843382746101>\", line 9, in make_request\n    raise ValueError(\"Invalid URL or URL is missing\")\nValueError: Invalid URL or URL is missing\n",
+            "log_type": "error"
+        }
+    },
+    "last_log_time": "2024-09-08 10:59:48"
+}
