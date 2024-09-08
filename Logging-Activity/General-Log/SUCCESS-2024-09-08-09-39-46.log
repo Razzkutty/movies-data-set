@@ -1,0 +1,10 @@
+{
+    "status_code": 200,
+    "message": "Successfully File Donwloaded from Github",
+    "Function Details": {
+        "function_name": "write_log",
+        "positional_args": "('Logging-Activity/General-Log',)",
+        "kwargs": "{'status_code': 200, 'message': 'Successfully File Donwloaded from Github'}"
+    },
+    "last_log_time": "2024-09-08 09:39:46"
+}
