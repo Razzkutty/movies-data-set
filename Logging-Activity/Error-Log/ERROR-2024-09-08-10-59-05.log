@@ -1,0 +1,5 @@
+{
+    "status_code": 500,
+    "error": "Traceback (most recent call last):\n  File \"<command-3418843382746101>\", line 9, in make_request\n    raise ValueError(\"Invalid URL or URL is missing\")\nValueError: Invalid URL or URL is missing\n",
+    "log_type": "error"
+}
