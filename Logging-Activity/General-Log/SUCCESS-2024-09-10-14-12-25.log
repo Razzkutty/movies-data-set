@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "Main PipeLine",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Pipeline not yet completed",
+            "message": "Check Error Logs",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:12:25-832951"
+}
