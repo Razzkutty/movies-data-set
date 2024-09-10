@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "Tranformation",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Function Execution Failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-1683261695\", line 220, in ETL_Transformation\n    count(\"*\").alias(\"Person Voted\"),\n    ^^^^^\nNameError: name 'count' is not defined\n",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:05:44-143955"
+}
