@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "ETL_Validation",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Function Execution Failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-1944982847\", line 303, in ETL_Validation\n    refined_df = handle_null_values(df)\n                 ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.ipykernel/958/command-2784750537705050-1944982847\", line 301, in handle_null_values\n    return df.fillna(\"#None\", subset=[\"Popular Tags\"])\n           ^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'fillna'\n",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:03:43-001655"
+}
