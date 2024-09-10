@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "ETL_Validation",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "Handle null values and Validate DF",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Function Executed Successfully",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:19:37-619710"
+}
