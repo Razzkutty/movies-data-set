@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "Tranformation",
+        "github_repo_folder_dir": "Logging-Activity/Error-Log",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Function Execution Failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-1389066173\", line 222, in ETL_Transformation\n    round(avg(col(\"rating\")), 2).alias(\"AvgRating\"),\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: type Column doesn't define __round__ method\n",
+            "log_type": "error"
+        }
+    },
+    "last_log_time": "2024-09-10 14:16:17-016267"
+}
