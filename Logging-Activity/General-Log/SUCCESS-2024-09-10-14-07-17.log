@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "get_file_from_github",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "download files and load into dbfs",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Function Executed Successfully",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:07:17-585180"
+}
