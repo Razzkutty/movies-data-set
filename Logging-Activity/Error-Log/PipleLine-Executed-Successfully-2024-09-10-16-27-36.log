@@ -1,0 +1,29 @@
+{
+    "log_id": 1,
+    "Function Activity Details": {
+        "function_name": "example_function",
+        "purpose": "Testing log functionality",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Success",
+            "message": "Function executed successfully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 16:27:36-610648"
+}{
+    "log_id": 2,
+    "Function Activity Details": {
+        "function_name": "example_function1",
+        "purpose": "Testing log functionality",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Success",
+            "message": "Function executed successfully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 16:27:36-611037"
+}
