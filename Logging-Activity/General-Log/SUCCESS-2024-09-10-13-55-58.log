@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "ETL_PipeLine",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "ETL_PipeLine Execution Failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-4153692975\", line 367, in <module>\n    refined_df = ETL_Validation()\n               ^^^^^^^^^^^^^^^^\nTypeError: ETL_Validation() missing 1 required positional argument: 'df'\n",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 13:55:58-132978"
+}
