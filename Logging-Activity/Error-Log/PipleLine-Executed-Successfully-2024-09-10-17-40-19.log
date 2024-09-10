@@ -1,0 +1,128 @@
+{
+    "log_id": 1,
+    "Function Activity Details": {
+        "function_name": "make_request",
+        "purpose": "Download Files From Github",
+        "kwargs": {
+            "status_code": 200,
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:03-160222"
+}
+ ***********************************************
+{
+    "log_id": 2,
+    "Function Activity Details": {
+        "function_name": "make_request",
+        "purpose": "Download Files From Github",
+        "kwargs": {
+            "status_code": 200,
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:03-538418"
+}
+ ***********************************************
+{
+    "log_id": 3,
+    "Function Activity Details": {
+        "function_name": "make_request",
+        "purpose": "Download Files From Github",
+        "kwargs": {
+            "status_code": 200,
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:03-965262"
+}
+ ***********************************************
+{
+    "log_id": 4,
+    "Function Activity Details": {
+        "function_name": "make_request",
+        "purpose": "Download Files From Github",
+        "kwargs": {
+            "status_code": 200,
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:04-480408"
+}
+ ***********************************************
+{
+    "log_id": 5,
+    "Function Activity Details": {
+        "function_name": "get_file_from_github",
+        "purpose": "download files and load into dbfs",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:04-585240"
+}
+ ***********************************************
+{
+    "log_id": 6,
+    "Function Activity Details": {
+        "function_name": "add_genre_columns",
+        "purpose": "Add genre indicator columns",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Done",
+            "message": "all genre columns added successfully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:09-805168"
+}
+ ***********************************************
+{
+    "log_id": 7,
+    "Function Activity Details": {
+        "function_name": "ETL_Validation",
+        "purpose": "Handle null values and Validate DF",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:09-964200"
+}
+ ***********************************************
+{
+    "log_id": 8,
+    "Function Activity Details": {
+        "function_name": "Main PipeLine",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "Done",
+            "message": "Pipeline Executed Succefully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "function_log_time": "2024-09-10 17:40:19-448168"
+}
+ ***********************************************
