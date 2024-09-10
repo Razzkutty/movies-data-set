@@ -1,0 +1,96 @@
+{
+    "log_id": 1,
+    "Details": {
+        "function_name": "get_file_from_github",
+        "purpose": "Download files from Github and load into DBFS",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:22:26-474322"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 2,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:22:26-753988"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 3,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:22:27-495632"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 4,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:22:28-173728"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 5,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:22:28-884454"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 6,
+    "Details": {
+        "function_name": "ETL_PipeLine",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "failed",
+            "message": "ETL_PipeLine execution failed",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/34641/command-1917945779966106-1820221961\", line 349, in <module>\n    tranformed_df = ETL_Transformation()\n                   ^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.ipykernel/34641/command-1917945779966106-1820221961\", line 203, in ETL_Transformation\n    count(\"*\").alias(\"Person Voted\"),\n    ^^^^^\nNameError: name 'count' is not defined\n",
+            "log_type": "error"
+        }
+    },
+    "execution_time": "2024-09-10 18:22:33-379685"
+}
+ ---------------------  * * * *  ---------------------
