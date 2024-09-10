@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "ETL_PipeLine",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "",
+        "kwargs": {
+            "status_code": "N/A",
+            "status": "ETL_PipeLine Execution Failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-1683261695\", line 373, in <module>\n    print(refined_df.show())\n          ^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'show'\n",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:05:45-199590"
+}
