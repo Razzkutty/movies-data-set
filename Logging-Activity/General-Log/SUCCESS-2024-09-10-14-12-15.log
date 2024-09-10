@@ -1,0 +1,15 @@
+{
+    "Function Activity Details": {
+        "function_name": "make_request",
+        "github_repo_folder_dir": "Logging-Activity/General-Log",
+        "purpose": "Download Files From Github",
+        "kwargs": {
+            "status_code": 200,
+            "status": "Function Executed Successfully",
+            "message": "Successfully Executed",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "last_log_time": "2024-09-10 14:12:15-943906"
+}
