@@ -1,0 +1,144 @@
+{
+    "log_id": 1,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:39-124504"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 2,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:39-607315"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 3,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:39-936740"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 4,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:40-474426"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 5,
+    "Details": {
+        "function_name": "get_file_from_github",
+        "purpose": "Download files from Github and load into DBFS",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:40-575034"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 6,
+    "Details": {
+        "function_name": "Tranformation",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-631782113\", line 235, in ETL_Transformation\n    windowSpec = Window.partitionBy(\"movieId\").orderBy(des(\"count\"))\n                                                       ^^^\nNameError: name 'des' is not defined\n",
+            "log_type": "error"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:44-689318"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 7,
+    "Details": {
+        "function_name": "ETL_Validation",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "failed",
+            "message": "",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-631782113\", line 311, in ETL_Validation\n    refined_df = handle_null_values(df)\n                 ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.ipykernel/958/command-2784750537705050-631782113\", line 309, in handle_null_values\n    return df.fillna(\"#None\", subset=[\"Popular Tags\"])\n           ^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'fillna'\n",
+            "log_type": "error"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:44-689915"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 8,
+    "Details": {
+        "function_name": "ETL_Load_data_to_snowflake",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "failed",
+            "message": "function execution failed",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/958/command-2784750537705050-631782113\", line 353, in ETL_Load_data_to_snowflake\n    df.write\nAttributeError: 'NoneType' object has no attribute 'write'\n",
+            "log_type": "error"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:44-690470"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 9,
+    "Details": {
+        "function_name": "Main PipeLine",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "Pipeline not yet completed",
+            "message": "check error logs",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:03:44-690622"
+}
+ ---------------------  * * * *  ---------------------
