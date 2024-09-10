@@ -1,0 +1,144 @@
+{
+    "log_id": 1,
+    "Details": {
+        "function_name": "get_file_from_github",
+        "purpose": "Download files from Github and load into DBFS",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:52-135058"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 2,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:52-428216"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 3,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:53-268600"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 4,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:53-767644"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 5,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:54-444247"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 6,
+    "Details": {
+        "function_name": "add_genre_columns",
+        "purpose": "Add genre indicator columns",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "all genre columns added successfully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:59-731913"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 7,
+    "Details": {
+        "function_name": "ETL_Validation",
+        "purpose": "Handle null values and validate DF",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:35:59-849403"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 8,
+    "Details": {
+        "function_name": "ETL_Load_data_to_snowflake",
+        "purpose": "Load processed data into Snowflake",
+        "about": {
+            "status_code": "N/A",
+            "status": "Done",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:36:10-834073"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 9,
+    "Details": {
+        "function_name": "Main PipeLine",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "Pipeline executed succesfully",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:36:10-834554"
+}
+ ---------------------  * * * *  ---------------------
