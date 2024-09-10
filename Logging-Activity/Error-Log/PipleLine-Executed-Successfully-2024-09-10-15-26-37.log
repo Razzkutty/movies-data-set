@@ -1,0 +1,10 @@
+{
+    "1": {
+        "log_number": 1,
+        "details": "{'Function Activity Details': {'function_name': 'example_function', 'purpose': 'Testing log functionality', 'kwargs': {'status_code': 'N/A', 'status': 'Success', 'message': 'Function executed successfully', 'error': '', 'log_type': 'info'}}, 'function_log_time': '2024-09-10 15:26:37-704886'}"
+    },
+    "2": {
+        "log_number": 2,
+        "details": "{'Function Activity Details': {'function_name': 'example_function1', 'purpose': 'Testing log functionality', 'kwargs': {'status_code': 'N/A', 'status': 'Success', 'message': 'Function executed successfully', 'error': '', 'log_type': 'info'}}, 'function_log_time': '2024-09-10 15:26:37-704974'}"
+    }
+}
