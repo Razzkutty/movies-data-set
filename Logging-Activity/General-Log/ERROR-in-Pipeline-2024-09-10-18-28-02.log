@@ -1,0 +1,96 @@
+{
+    "log_id": 1,
+    "Details": {
+        "function_name": "get_file_from_github",
+        "purpose": "Download files from Github and load into DBFS",
+        "about": {
+            "status_code": "N/A",
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:27:55-933047"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 2,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:27:56-203845"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 3,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:27:56-733045"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 4,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:27:57-231828"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 5,
+    "Details": {
+        "function_name": "make_request",
+        "purpose": "Download files from Github",
+        "about": {
+            "status_code": 200,
+            "status": "completed",
+            "message": "",
+            "error": "",
+            "log_type": "info"
+        }
+    },
+    "execution_time": "2024-09-10 18:27:57-895977"
+}
+ ---------------------  * * * *  ---------------------
+{
+    "log_id": 6,
+    "Details": {
+        "function_name": "ETL_PipeLine",
+        "purpose": "",
+        "about": {
+            "status_code": "N/A",
+            "status": "failed",
+            "message": "ETL_PipeLine execution failed",
+            "error": "Traceback (most recent call last):\n  File \"/root/.ipykernel/34641/command-1917945779966106-940873300\", line 352, in <module>\n    tranformed_df = ETL_Transformation()\n                   ^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.ipykernel/34641/command-1917945779966106-940873300\", line 214, in ETL_Transformation\n    windowSpec = Window.partitionBy(\"movieId\").orderBy(des(\"count\"))\n                                                       ^^^\nNameError: name 'des' is not defined\n",
+            "log_type": "error"
+        }
+    },
+    "execution_time": "2024-09-10 18:28:02-673449"
+}
+ ---------------------  * * * *  ---------------------
